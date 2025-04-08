@@ -22,7 +22,7 @@ nav{
   width: 1200px;
   height: inherit;
   margin: auto;
-  padding: 10px, 10px;
+  padding: 10px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,7 +97,7 @@ nav .util-menu{
   padding: 30px;
   transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
 }
-/* 나타날때 설정-보이게 ==>jQuery에서 클래스 생성 및 삭제 */
+
 .des.textVisible{
   opacity: 1;
   transform: translateX(0%);
@@ -311,7 +311,6 @@ nav .util-menu{
 }
 .weekly-best .items ul {
   position: absolute;
-  /* border: 1px solid #000; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -326,8 +325,8 @@ nav .util-menu{
   margin: 0;
 }
 .weekly-best .items ul li {
-  width: 300px; /* 명확히 설정 */
-  flex-shrink: 0; /* 줄어들지 않게 */
+  width: 300px;
+  flex-shrink: 0;
 }
 
 /* 배치될 이미지 */
@@ -362,7 +361,6 @@ nav .util-menu{
 .new h2{margin-bottom: 50px;}
 
 .new {
-  /* border: 1px solid #525252; */
   width: 1200px;
   margin: auto;
   font-size: 30px;
@@ -373,7 +371,6 @@ nav .util-menu{
 }
 
 .new .items {
-  /* border: 1px solid #830000; */
   display: flex;
   align-items: center;
   width: 100%;
@@ -408,7 +405,7 @@ nav .util-menu{
 }
 
 .slide:hover{
-  transform: translateY(-15px);  /* 카드 전체가 위로 뜨기 */
+  transform: translateY(-15px);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
 }
 
@@ -417,7 +414,6 @@ nav .util-menu{
   height: auto;
   object-fit: contain; 
 }
-
 
 /* 제품명*/
 .slide .caption{
@@ -444,7 +440,6 @@ nav .util-menu{
   opacity: 1;
 }
 
-
 .slide .btn{
   margin-top: 20px;
   background-color: #ff5816;
@@ -461,7 +456,6 @@ nav .util-menu{
 
 /* section lookbook_____________________________ */
 .lookbook {
-  /* border: 1px solid #afafaf; */
   width: 1200px;
   margin: auto;
   padding: 50px 0;
@@ -489,7 +483,6 @@ nav .util-menu{
 }
 /* (1) */
 .lookbook1{
-  /* border: 1px solid #000; */
   display: flex;
   gap: 0 50px;
 }
@@ -516,7 +509,6 @@ nav .util-menu{
 
 /* (2) */
 .lookbook2{
-  /* border: 1px solid #000; */
   display: flex;
   justify-content: space-between;
   gap: 0 20px;
@@ -529,7 +521,6 @@ nav .util-menu{
 
 /* (3) */
 .lookbook3{
-  /* border: 1px solid #000; */
   height: 475px;
   display: flex;
   justify-content: space-between;
@@ -604,7 +595,6 @@ footer{
   color: #222;
 }
 footer .container{
-  /* border: 1px solid #000; */
   width: 1200px;
   height: inherit;
   margin: auto;
@@ -615,13 +605,11 @@ footer .container{
   column-gap: 25px;
 }
 footer p{
-  /* border: 1px solid #000; */
   font-size: 15px;
   font-weight: 700;
   line-height: 30px;
 }
 footer span{
-  /* border: 1px solid #000; */
   font-family: "Nanum Gothic", sans-serif;
   display: flex;
   flex-direction: column;

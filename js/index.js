@@ -43,7 +43,7 @@ $(document).ready(function(){
       newImg = 0;
     }
     changeImg(newImg);
-    changeIndicator(newImg); // ✅ 항상 실행되게
+    changeIndicator(newImg); // 항상 실행되게
   }
   function autoText(){
     newText++;
